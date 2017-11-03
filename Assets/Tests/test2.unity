@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17511092, g: 0.21907207, b: 0.3013724, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -2976,7 +2976,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010804791030, guid: 317d43fa6a40ba24888a9468915f968a, type: 2}
       propertyPath: m_Name
-      value: Sword
+      value: Sword (1)
       objectReference: {fileID: 0}
     - target: {fileID: 114933633625230920, guid: 317d43fa6a40ba24888a9468915f968a,
         type: 2}
@@ -3148,22 +3148,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 833496233}
---- !u!1 &844837230 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000010804791030, guid: 317d43fa6a40ba24888a9468915f968a,
-    type: 2}
-  m_PrefabInternal: {fileID: 715559358}
---- !u!114 &844837237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 844837230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de1112b6f289b6469e933945077e0da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &851634729
 GameObject:
   m_ObjectHideFlags: 0
@@ -5363,6 +5347,25 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1516494714}
   m_Mesh: {fileID: 4300046, guid: 532f4c17a8281c744a19b8f020d8b9e8, type: 3}
+--- !u!1 &1557918884 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000010804791030, guid: 317d43fa6a40ba24888a9468915f968a,
+    type: 2}
+  m_PrefabInternal: {fileID: 715559358}
+--- !u!114 &1557918885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1557918884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa2baaf3eaecd2f469377d9f65039f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  segments: 50
+  radius: 0.5
+  thickness: 5
 --- !u!1 &1580368898 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 140386, guid: b0047dd65ff208349bf3a5aaaeae24d0, type: 2}
