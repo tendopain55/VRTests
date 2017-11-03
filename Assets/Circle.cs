@@ -9,7 +9,7 @@ public class Circle : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         var linePoints = new List<Vector3>(segments*2);
-        var myLine = new VectorLine("Line", linePoints, thickness, LineType.Continuous, Joins.Weld);
+        var myLine = new VectorLine("Line", linePoints, thickness, LineType.Discrete, Joins.Weld);
         myLine.color = Color.red;
         myLine.MakeCircle(new Vector3(0,0,0), new Vector3(1,0,0), radius, segments);
         myLine.Draw3DAuto();
