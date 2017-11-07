@@ -5427,6 +5427,22 @@ MonoBehaviour:
   radius: 0.5
   thickness: 5
   offset: -0.75
+--- !u!114 &1557918890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1557918884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff00c90fbd131428e9a1d3fc88b079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slider: {fileID: 179387474}
+  segments: 50
+  radius: 0
+  thickness: 5
+  offset: 0.5
 --- !u!1 &1580368898 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 140386, guid: b0047dd65ff208349bf3a5aaaeae24d0, type: 2}
