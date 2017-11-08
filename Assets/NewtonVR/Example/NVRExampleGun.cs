@@ -17,7 +17,7 @@ namespace NewtonVR.Example
 
             GameObject bullet = GameObject.Instantiate(BulletPrefab);
             bullet.transform.position = FirePoint.position;
-            bullet.transform.rotation = FirePoint.rotation;
+            bullet.transform.forward = FirePoint.forward;
 
             bullet.GetComponent<Rigidbody>().AddRelativeForce(BulletForce);
 

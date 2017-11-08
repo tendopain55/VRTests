@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Tests/test2.unity
+    guid: 3651b04ab8b11f64a881cf54b95983ac
+  - enabled: 1
+    path: Assets/NewtonVR/Example/NVRExampleScene.unity
+    guid: 35244dd17dcc09a4196dc8e968005aa7
