@@ -1,27 +1,15 @@
 fileFormatVersion: 2
-guid: 64aafe4521ef0bb41913e414e6abe733
-timeCreated: 1510102102
+guid: aeb260cd10c358d4598c877faf2a124c
+timeCreated: 1510706307
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: Cylinder
-    100002: Large_Wires
-    100004: Lightbulb_Base
-    100006: //RootNode
-    400000: Cylinder
-    400002: Large_Wires
-    400004: Lightbulb_Base
-    400006: //RootNode
-    2300000: Cylinder
-    2300002: Large_Wires
-    2300004: Lightbulb_Base
-    3300000: Cylinder
-    3300002: Large_Wires
-    3300004: Lightbulb_Base
-    4300000: Lightbulb_Base
-    4300002: Cylinder
-    4300004: Large_Wires
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube
     7400000: Default Take
     9500000: //RootNode
   materials:

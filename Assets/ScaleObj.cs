@@ -13,6 +13,6 @@ public class ScaleObj : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.localScale = new Vector3(1, Slider.CurrentValue * 3, Slider.CurrentValue * 3);
-        transform.localPosition = new Vector3((Slider2.CurrentValue*3 - 0.5f), 0, 0);
+        //transform.localPosition = new Vector3((Slider2.CurrentValue*3 - 0.5f), 0, 0);
 	}
 }

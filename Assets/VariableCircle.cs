@@ -17,7 +17,7 @@ namespace NewtonVR
 
         public int segments = 50;
 
-        public float radius;
+        private float radius;
 
         public float thickness = 5.0f;
 
