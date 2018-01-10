@@ -13,6 +13,6 @@ using NewtonVR;
         void Update()
         {
 
-            lt.intensity = 2.0f * Slider.CurrentValue;
+            lt.intensity = 4.0f * Slider.CurrentValue;
         }
     }

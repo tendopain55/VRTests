@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Vectrosity;
+using NewtonVR;
 
-public class Circle : MonoBehaviour
-    {
+public class Circle : MonoBehaviour { 
     
     public int segments = 50;
     public float radius = 0.5f;
@@ -26,7 +26,7 @@ public class Circle : MonoBehaviour
         Vector3 adjpos = new Vector3(offset, 0, 0);
         myLine.MakeCircle(new Vector3(offset, 0, 0), new Vector3(1, 0, 0), radius, segments);
         myLine.Draw3DAuto();
-        if(perpLinesIO == true)
+        if(perpLinesIO)
         {
             
             for (int i = 0; i < numberPerpLines; i++)

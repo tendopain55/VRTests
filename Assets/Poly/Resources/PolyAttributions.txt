@@ -1,0 +1,43 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: Bowling balls
+Author: Poly by Google
+URL: https://poly.google.com/view/efg44nveZaf
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Bowling pin
+Author: Poly by Google
+URL: https://poly.google.com/view/0ZooEG4LdJF
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Bowling pins
+Author: Poly by Google
+URL: https://poly.google.com/view/7RQbiSQVGNy
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Little Fox
+Author: Rachael Hosein
+URL: https://poly.google.com/view/biJQtyo7j-r
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Lowpoly Squirrel
+Author: Tipatat Chennavasin
+URL: https://poly.google.com/view/eGdXC-5V2wM
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Simple grass ground 2
+Author: Thomas Balouet
+URL: https://poly.google.com/view/bIejuFxN4lu
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Simple grass ground 3
+Author: Thomas Balouet
+URL: https://poly.google.com/view/9muYLq_YoEr
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode

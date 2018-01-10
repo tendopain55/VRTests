@@ -13,7 +13,8 @@ namespace NewtonVR.Example
         // Use this for initialization
         void Start()
         {
-
+            centerPoint = GameObject.FindObjectOfType<CenterPointPlaceHolder>().transform;
+            Switch = GameObject.FindObjectOfType<NVRSwitch>();
         }
 
         // Update is called once per frame
@@ -30,7 +31,7 @@ namespace NewtonVR.Example
             /* Vector3 target = centerPoint.position;
              target.x = this.transform.position.x;
              target.z = this.transform.position.z;*/
-            if (Switch.CurrentState == true)
+            if (Switch.CurrentState)
             {
                 onoff = 90;
             }
