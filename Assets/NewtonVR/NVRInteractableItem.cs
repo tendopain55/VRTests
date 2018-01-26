@@ -308,6 +308,8 @@ namespace NewtonVR
                     OnEndInteraction.Invoke();
                 }
             }
+            //Change velocity on detach based on current velocity and mass
+            //this.Rigidbody.velocity = this.Rigidbody.velocity / this.Rigidbody.mass;
         }
 
         public override void HoveringUpdate(NVRHand hand, float forTime)

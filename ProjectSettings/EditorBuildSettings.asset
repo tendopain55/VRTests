@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Tests/test2.unity
+    path: Assets/New Scenes/test2.unity
     guid: 3651b04ab8b11f64a881cf54b95983ac
   - enabled: 1
     path: Assets/NewtonVR/Example/NVRExampleScene.unity
     guid: 35244dd17dcc09a4196dc8e968005aa7
+  - enabled: 1
+    path: Assets/New Scenes/KinematicsDemo.unity
+    guid: 03a028b72ab0d6b4080f9ac0cb36e1ac

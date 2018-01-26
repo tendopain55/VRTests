@@ -1,5 +1,17 @@
 This project uses the following items from Poly (http://poly.google.com):
 
+Title: Basketball court
+Author: Poly by Google
+URL: https://poly.google.com/view/85FpUr2fHkH
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Bowl
+Author: Poly by Google
+URL: https://poly.google.com/view/3MW5T_EMG64
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
 Title: Bowling balls
 Author: Poly by Google
 URL: https://poly.google.com/view/efg44nveZaf
@@ -39,5 +51,11 @@ https://creativecommons.org/licenses/by/3.0/legalcode
 Title: Simple grass ground 3
 Author: Thomas Balouet
 URL: https://poly.google.com/view/9muYLq_YoEr
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Table tennis paddle
+Author: Poly by Google
+URL: https://poly.google.com/view/1L_wiH1iQHO
 License: Creative Commons CC-BY
 https://creativecommons.org/licenses/by/3.0/legalcode
