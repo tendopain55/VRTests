@@ -16,7 +16,7 @@ public class StraightArrows : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        var linePoints = new List<Vector3>(){ new Vector3(offsetX/10,offsetY + length,0 + offsetZ/10), new Vector3(offsetX/10,offsetY,offsetZ/10)}; ;
+        var linePoints = new List<Vector3>(){ new Vector3(offsetX/10,offsetY + length,0 + offsetZ/10), new Vector3(offsetX/10,offsetY,offsetZ/10)};
         myLine = new VectorLine("Line", linePoints, thickness, LineType.Discrete, Joins.Weld);
         myLine.drawTransform = transform;
         myLine.color = linecolor;
