@@ -274,7 +274,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 40310501}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd9e25ae82b40774b9a31e46e8a52a2a, type: 3}
   m_Name: 
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3508,7 +3508,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1827324445}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.162, y: -1.181, z: 0}
+  m_LocalPosition: {x: 2.355, y: -1.181, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 942687027}
@@ -4034,6 +4034,42 @@ GameObject:
 GameObject:
   m_PrefabParentObject: {fileID: 140386, guid: b0047dd65ff208349bf3a5aaaeae24d0, type: 2}
   m_PrefabInternal: {fileID: 1920452903}
+--- !u!114 &1920452910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1920452904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f7fd2d21cf47347b6a40cc3beb3945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: {fileID: 1920452911}
+--- !u!114 &1920452911 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11464396, guid: b0047dd65ff208349bf3a5aaaeae24d0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1920452903}
+  m_Script: {fileID: 11500000, guid: 1487c36fb75d2924e8bff712895f43c3, type: 3}
+--- !u!114 &1920452912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1920452907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f7fd2d21cf47347b6a40cc3beb3945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: {fileID: 1920452915}
+--- !u!114 &1920452915 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11419036, guid: b0047dd65ff208349bf3a5aaaeae24d0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1920452903}
+  m_Script: {fileID: 11500000, guid: 1487c36fb75d2924e8bff712895f43c3, type: 3}
 --- !u!1 &1924506860
 GameObject:
   m_ObjectHideFlags: 0

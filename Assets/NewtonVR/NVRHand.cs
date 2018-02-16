@@ -258,7 +258,19 @@ namespace NewtonVR
 
             UpdateHovering();
 
-            UpdateVisibilityAndColliders();
+            if (!(Time.timeScale == FreezeTime.slowTimeScale))
+            {
+                UpdateVisibilityAndColliders();
+            }
+
+            if (!CurrentlyInteracting)
+            {
+                if (HoldButtonDown)
+                {
+                    FrozenPickup();
+                }
+                
+            }
         }
 
         protected void UpdateHovering()
@@ -852,6 +864,23 @@ namespace NewtonVR
         {
             SetVisibility(VisibilityLevel.Ghost);
             PhysicalController.Off();
+        }
+        public void FrozenPickup()
+        {
+            RaycastHit[] hitInfos = Physics.SphereCastAll(this.transform.position, 0.1f, Vector3.up, 0.01f);
+            foreach(var hitInfo in hitInfos)
+            {
+                NVRInteractable interactable = NVRInteractables.GetInteractable(hitInfo.collider);
+                if (interactable != null)
+                {
+                    BeginInteraction(interactable);
+                    return;
+                }
+            }
+
+
+
+            
         }
     }
 

@@ -39,7 +39,7 @@ namespace NewtonVR
 			controllerIndex = System.Convert.ToInt32(nvrHand.IsLeft);
 		}
 
-		private void FixedUpdate()
+		private void Update()
 		{
 			if (teleporter != null)
 			{

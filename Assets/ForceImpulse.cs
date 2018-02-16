@@ -28,6 +28,10 @@ public class ForceImpulse : MonoBehaviour {
         
         leaderboard.text = "High Score\n1.   " + first.ToString("0") + " N" + "\n" + "2.   " + second.ToString("0") + " N" + "\n" + "3.   " + third.ToString("0") + " N";
 
+        if (force > 10000)
+        {
+            text.text += "!";
+        }
 
 
     }

@@ -64,11 +64,36 @@ namespace NewtonVR
 
                 if (dropped == false)
                 {
-                    UpdateVelocities();
+                    if (Time.timeScale == FreezeTime.slowTimeScale)
+                    {
+                        UpdatePosition();
+                    }
+                    else
+                    {
+                        UpdateVelocities();
+                    }
                 }
             }
 
             AddExternalVelocities();
+        }
+
+        protected override void Update()
+        {
+            base.Update();
+                if (IsAttached == true)
+                {
+                    bool dropped = CheckForDrop();
+
+                    if (dropped == false)
+                    {
+                        if (Time.timeScale == FreezeTime.slowTimeScale)
+                        {
+                            UpdatePosition();
+                        }
+                    }
+                }
+
         }
 
         protected virtual void GetTargetValues(out Vector3 targetHandPosition, out Quaternion targetHandRotation, out Vector3 targetItemPosition, out Quaternion targetItemRotation)
@@ -450,6 +475,19 @@ namespace NewtonVR
                     }
                 }
             }
+        }
+        protected void UpdatePosition()
+        {
+            Vector3 targetItemPosition;
+            Quaternion targetItemRotation;
+
+            Vector3 targetHandPosition;
+            Quaternion targetHandRotation;
+
+            GetTargetValues(out targetHandPosition, out targetHandRotation, out targetItemPosition, out targetItemRotation);
+
+            this.transform.position = targetHandPosition;
+            this.transform.rotation = targetHandRotation;
         }
     }
 }
