@@ -38,6 +38,7 @@ namespace NewtonVR
 
         protected Dictionary<Collider, PhysicMaterial> MaterialCache = new Dictionary<Collider, PhysicMaterial>();
 
+
         protected override void Awake()
         {
             base.Awake();
@@ -486,8 +487,12 @@ namespace NewtonVR
 
             GetTargetValues(out targetHandPosition, out targetHandRotation, out targetItemPosition, out targetItemRotation);
 
+            Vector3 stoRot = this.transform.eulerAngles;
             this.transform.position = targetHandPosition;
             this.transform.rotation = targetHandRotation;
+            //below works to set velocity but does not quite set the correct velocity
+            this.Rigidbody.velocity = (this.transform.eulerAngles.normalized- stoRot) * this.Rigidbody.velocity.magnitude;
+            //This needs to be on the object grabbed not the hand
         }
     }
 }

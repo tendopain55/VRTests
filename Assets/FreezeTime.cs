@@ -6,11 +6,13 @@ public class FreezeTime : MonoBehaviour
 {
     public const float slowTimeScale = 0.001f;
     public NVRHand hand;
+    public Rigidbody rb;
 
     // Use this for initialization
     void Start()
     {
         hand = GetComponent<NVRHand>();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -25,6 +27,8 @@ public class FreezeTime : MonoBehaviour
             else
             {
                 Time.timeScale = 1;
+               // this.rb.velocity = this.transform.eulerAngles.normalized * this.rb.velocity.magnitude;
+               //This needs to be on the object grabbed not the hand
             }
         }
     }
