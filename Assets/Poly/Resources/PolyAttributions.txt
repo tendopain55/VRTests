@@ -42,6 +42,12 @@ URL: https://poly.google.com/view/eGdXC-5V2wM
 License: Creative Commons CC-BY
 https://creativecommons.org/licenses/by/3.0/legalcode
 
+Title: Quiet Room
+Author: Cody Rutty
+URL: https://poly.google.com/view/3-geCV-uexz
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
 Title: Simple grass ground 2
 Author: Thomas Balouet
 URL: https://poly.google.com/view/bIejuFxN4lu
