@@ -30,6 +30,12 @@ URL: https://poly.google.com/view/7RQbiSQVGNy
 License: Creative Commons CC-BY
 https://creativecommons.org/licenses/by/3.0/legalcode
 
+Title: Earth
+Author: Poly by Google
+URL: https://poly.google.com/view/cfM9k9LFaLz
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
 Title: Little Fox
 Author: Rachael Hosein
 URL: https://poly.google.com/view/biJQtyo7j-r
@@ -39,6 +45,12 @@ https://creativecommons.org/licenses/by/3.0/legalcode
 Title: Lowpoly Squirrel
 Author: Tipatat Chennavasin
 URL: https://poly.google.com/view/eGdXC-5V2wM
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Model Solar System
+Author: Vinnie Vettese
+URL: https://poly.google.com/view/bLXnCsxECSs
 License: Creative Commons CC-BY
 https://creativecommons.org/licenses/by/3.0/legalcode
 
@@ -57,6 +69,12 @@ https://creativecommons.org/licenses/by/3.0/legalcode
 Title: Simple grass ground 3
 Author: Thomas Balouet
 URL: https://poly.google.com/view/9muYLq_YoEr
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Sun
+Author: Poly by Google
+URL: https://poly.google.com/view/69ejysWdDXG
 License: Creative Commons CC-BY
 https://creativecommons.org/licenses/by/3.0/legalcode
 
