@@ -20,6 +20,10 @@ public class Orbits : MonoBehaviour {
         float initV = Mathf.Sqrt(center.mass / (center.position - this.rb.position).magnitude);
         InitialVelocity();
         item.OnEndInteraction.AddListener(resetV);
+        if (centerItem != null)
+        {
+            centerItem.OnEndInteraction.AddListener(resetV);
+        }
     }
 	
 	// Update is called once per frame
@@ -31,9 +35,10 @@ public class Orbits : MonoBehaviour {
                 if (innerOrbit != null)
                 {
                     innerOrbit.update = false;
+                    this.rb.isKinematic = true;
                 }
-                this.rb.position += center.position - lastPos;
-                lastPos = center.position;
+                //this.rb.position += center.position - lastPos;
+             
                 pauseV();
                 return;
             }
@@ -45,12 +50,11 @@ public class Orbits : MonoBehaviour {
             Vector3 force = (this.rb.position - center.position).normalized * forceVal;
             rb.AddForce(force);
         }
-	}
+        //lastPos = center.position;
+    }
     void InitialVelocity()
     {
-        if(innerOrbit != null){
-            innerOrbit.update = true;
-        }
+        
         float initV = Mathf.Sqrt(center.mass / (center.position - this.rb.position).magnitude);
         if (clockwise)
         {
@@ -65,6 +69,11 @@ public class Orbits : MonoBehaviour {
 
     void resetV()
     {
+        this.rb.isKinematic = false;
+        if (innerOrbit != null)
+        {
+            innerOrbit.update = true;
+        }
         this.rb.velocity = new Vector3(0,0,0);
         InitialVelocity();
     }
