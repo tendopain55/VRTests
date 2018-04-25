@@ -27,8 +27,7 @@ public class FreezeTime : MonoBehaviour
             else
             {
                 Time.timeScale = 1;
-               // this.rb.velocity = this.transform.eulerAngles.normalized * this.rb.velocity.magnitude;
-               //This needs to be on the object grabbed not the hand
+               
             }
         }
     }
