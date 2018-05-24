@@ -36,6 +36,18 @@ URL: https://poly.google.com/view/cfM9k9LFaLz
 License: Creative Commons CC-BY
 https://creativecommons.org/licenses/by/3.0/legalcode
 
+Title: Floating City
+Author: Mikael Ganehag Brorsson
+URL: https://poly.google.com/view/cUH5C6XcOhz
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: KVARTART2
+Author: Dmitry Vrubel
+URL: https://poly.google.com/view/6OqS8LYyrqN
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
 Title: Little Fox
 Author: Rachael Hosein
 URL: https://poly.google.com/view/biJQtyo7j-r
