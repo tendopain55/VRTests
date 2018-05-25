@@ -954,7 +954,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 478642, guid: b0047dd65ff208349bf3a5aaaeae24d0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -7.54
+      value: -11.73
       objectReference: {fileID: 0}
     - target: {fileID: 478642, guid: b0047dd65ff208349bf3a5aaaeae24d0, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1803,7 +1803,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 753012569}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 27.5, y: 0.532, z: 5.36}
+  m_LocalPosition: {x: 22.96, y: 0.532, z: 5.36}
   m_LocalScale: {x: 3, y: 3, z: 0.1}
   m_Children:
   - {fileID: 765787762}
@@ -2429,11 +2429,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4944999266541042, guid: 7ec607c8c2581a442957ae67d29b299a, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 28.82
+      value: 24.03
       objectReference: {fileID: 0}
     - target: {fileID: 4944999266541042, guid: 7ec607c8c2581a442957ae67d29b299a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -5.65
+      value: -29.8
       objectReference: {fileID: 0}
     - target: {fileID: 4944999266541042, guid: 7ec607c8c2581a442957ae67d29b299a, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2461,15 +2461,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4944999266541042, guid: 7ec607c8c2581a442957ae67d29b299a, type: 2}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4944999266541042, guid: 7ec607c8c2581a442957ae67d29b299a, type: 2}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4944999266541042, guid: 7ec607c8c2581a442957ae67d29b299a, type: 2}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7ec607c8c2581a442957ae67d29b299a, type: 2}
